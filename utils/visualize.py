@@ -84,7 +84,6 @@ def save_fig(fig, fname, Occupied_count, UnOccupied_count, show=False):
         # Update the count label
         occupiedCount_label.configure(text="Occupied count: {}".format(Occupied_count))
         unoccupiedCount_label.configure(text="Unoccupied count: {}".format(UnOccupied_count))
-
         #Close on click of closing button
 
 
